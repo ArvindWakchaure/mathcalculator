@@ -1,0 +1,19 @@
+{
+  "name": "mathcalculator",
+  "version": "1.0.0",
+  "description": "This plugin is doing mathematical operations",
+  "cordova": {
+    "id": "cordova-plugin-mathcalculator",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Arvind W",
+  "license": "ISC"
+}
