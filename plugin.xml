@@ -10,11 +10,11 @@
    <platform name="android">
       <config-file parent="/*" target="res/xml/config.xml">
          <feature name="MathCalculator">
-            <param name="android-package" value="com.example.MathCalculator" />
+            <param name="android-package" value="cordova.plugin.mathcalculator.MathCalculator" />
          </feature>
       </config-file>
       <config-file parent="/*" target="AndroidManifest.xml" />
-      <source-file src="src/android/com/example/MathCalculator.java" target-dir="src/com/example" />
+      <source-file src="src/android/MathCalculator.java" target-dir="src/cordova/plugin/mathcalculator/MathCalculator" />
    </platform>
 
    <platform name="ios">
